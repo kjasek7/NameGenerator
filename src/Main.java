@@ -14,7 +14,7 @@ public class Main {
 
         Random rand = new Random();
         Scanner scanner = new Scanner(System.in);
-
+        System.out.println("Gender?");
         String choice = scanner.next();
         String name;
         String lastname =lastName[rand.nextInt(lastName.length)];
